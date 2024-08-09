@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js github profile card project</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/github.png" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="light-mode">
+
+    <div class="light-dark"><i id="dark-light" class="fa-solid fa-sun"></i></div>
+    <div class="search-header">
+        <div class="github-container">
+            <img class="github-logo light d-none" src="img/github-invert.png" alt="github">
+            <img class="github-logo dark " src="img/github-logo.png" alt="github">
+            <h1 class="search-title">profile search</h1>
+        </div>
+        <form id="form" class="user-form">
+            <input type="text" id="search" placeholder="Github User Profile" autocomplete="off">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </div>
+
+
+    <!-- <div class="error-container">
+                <p><i class="fa-solid fa-triangle-exclamation"></i></p>
+                <h1 class="error">Üzgünüz dsdfsdf kullanıcı adı ile eşleşen bir kullanıcı bulunamadı. Lütfen kontrol edip tekrar
+                    aratınız...
+                </h1>
+            </div> -->
+
+    <main id="main">
+        <!-- <div class="card">
+            <img class="user-img" src="https://avatars.githubusercontent.com/u/113641726?v=4" alt="profile-photo">
+            <div class="user-info">
+                <div class="user-name">
+                    <h2>Cengiz Aydemir</h2>
+                    <small>@cengo14</small>
+                    <p><i class="fa-solid fa-location-arrow"></i>Bolu</p>
+                    <p><i class="fa-brands fa-x-twitter"></i>Policengo</p>
+                </div>
+            </div>
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, maiores vero rem molestiae ut aliquid
+                obcaecati natus! Aliquid, alias deserunt.</p>
+            <ul>
+                <li>
+                    50<i class="fa-solid fa-user-group"></i><strong>Followers</strong>
+                </li>
+                <li>
+                    52
+                    <strong>Following
+                    </strong>
+                </li>
+                <li>
+                    <i class="fa-solid fa-bookmark"> </i>5 <strong>Repostory</strong>
+                </li>
+            </ul>
+            <div class="repos" id="repos">
+                <a href="#"><i class="fa-solid fa-book-bookmark"></i> Repo 1</a>
+                <a href="#"><i class="fa-solid fa-book-bookmark"></i> Repo 2</a>
+                <a href="#"><i class="fa-solid fa-book-bookmark"></i> Repo 3</a>
+            </div>
+        </div> -->
+
+    </main>
+
+    <!-- js script -->
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
