@@ -33,11 +33,13 @@ body {
     margin-right: 50px;
 }
 
-#dark-light {
+
+.fa-moon {
+    color: #000;
     cursor: pointer;
 }
 
-.fa-moon {
+.fa-sun {
     color: #fff;
     cursor: pointer;
 }

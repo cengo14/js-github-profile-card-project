@@ -106,16 +106,16 @@ const createUserRepos = (repos) => {
 darkLight.addEventListener("click", () => {
   document.body.classList.toggle("light-mode");
   if (
-    darkLight.classList.contains("fa-sun") &&
+    darkLight.classList.contains("fa-moon") &&
     githubLight.classList.contains("d-none")
   ) {
-    darkLight.classList.add("fa-moon");
-    darkLight.classList.remove("fa-sun");
+    darkLight.classList.add("fa-sun");
+    darkLight.classList.remove("fa-moon");
     githubDark.classList.add("d-none");
     githubLight.classList.remove("d-none");
   } else {
-    darkLight.classList.add("fa-sun");
-    darkLight.classList.remove("fa-moon");
+    darkLight.classList.add("fa-moon");
+    darkLight.classList.remove("fa-sun");
     githubLight.classList.add("d-none");
     githubDark.classList.remove("d-none");
   }
